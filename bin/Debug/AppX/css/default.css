@@ -13,18 +13,62 @@
 @media screen and (-ms-view-state: fullscreen-portrait) {
 }
 
+
+img#title {
+    position: absolute;
+    left: 50%;
+    margin-left: -167px;
+    width: 334px;
+    margin-top: 45px;
+}
+
 div#main-menu {
     position: absolute;
-    width: 480px;
-    height: 50%;
-    background-color: #808080;
+    width: 460px;
+    height: 30%;
     color: #fff;
-    top: 25%;
+    top: 30%;
     left: 50%;
     margin-left: -230px;
     padding: 10px;
+    z-index: 100;
+}
+
+div#main-menu-bg {
+    position: absolute;
+    width: 460px;
+    height: 30%;
+    color: #fff;
+    top: 30%;
+    left: 50%;
+    margin-left: -230px;
+    padding: 10px;
+    z-index: 10;
+    background-color: #808080;
+    opacity: 0.5;
 }
 
 div#main-menu h1 {
     text-align: center;
+}
+
+img#background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+div#main-menu ul {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+div#main-menu ul li {
+    margin: 4px;
+    border: 1px solid white;
+    border-collapse: collapse;
 }

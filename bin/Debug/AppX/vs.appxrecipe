@@ -16,13 +16,17 @@
     <AppXManifest Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T07:23:24.401</Modified>
+      <Modified>2012-09-10T08:04:02.530</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-10T07:32:02.239</Modified>
+      <Modified>2012-09-10T08:23:50.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
+      <PackagePath>images\background.png</PackagePath>
+      <Modified>2012-09-10T07:48:08.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -44,17 +48,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-09-10T07:00:56.401</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\title.png">
+      <PackagePath>images\title.png</PackagePath>
+      <Modified>2012-09-10T08:02:06.423</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2012-09-10T07:00:56.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-09-10T07:35:09.028</Modified>
+      <Modified>2012-09-10T08:51:57.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T07:23:24.256</Modified>
+      <Modified>2012-09-10T08:04:02.385</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

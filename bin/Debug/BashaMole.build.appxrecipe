@@ -16,6 +16,9 @@
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
+      <PackagePath>images\background.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -31,6 +34,9 @@
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\title.png">
+      <PackagePath>images\title.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\default.js">
       <PackagePath>js\default.js</PackagePath>
