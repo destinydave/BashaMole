@@ -68,16 +68,14 @@ function tick() {
 function showNewMole() {
     var moleNum = Math.floor(Math.random() * numberOfMoles);
 
-    if (moleCount < 3) {
+    if (moleCount < 50) {
         if (moleShowing[moleNum] == 0) {
             getMole2(moleNum);
             moleShowing[moleNum] = 1;
             moleCount++;
         }
     } else {
-        createjs.Ticker.removeAllListeners();
-        var message = "You murdered " + score + " moles!";
-        PopupMessage(message);
+        endGame();
     }
 }
 
@@ -125,5 +123,8 @@ function initialiseMolePosition() {
 }
 
 function endGame() {
-
+    createjs.Ticker.removeAllListeners();
+    var message = "You murdered " + score + " moles!";
+    PopupMessage(message);
+    window.open("default.html", "_self");
 }

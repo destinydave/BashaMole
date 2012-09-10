@@ -78,7 +78,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\Game.js">
       <PackagePath>js\Game.js</PackagePath>
-      <Modified>2012-09-10T22:26:49.363</Modified>
+      <Modified>2012-09-10T22:34:06.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\gore.js">
       <PackagePath>js\gore.js</PackagePath>
