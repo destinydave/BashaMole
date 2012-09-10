@@ -79,7 +79,7 @@ function getMole2(moleIndex) {
 
     var spriteSheet = new createjs.SpriteSheet(data);
     moleShape[moleIndex] = new createjs.BitmapAnimation(spriteSheet);
-    moleShape[moleIndex].x = molePosX[moleIndex];
+    moleShape[moleIndex].x = molePosX[moleIndex] - 121; // Deduct half the width from the x position
     moleShape[moleIndex].y = molePosY[moleIndex];
     moleShape[moleIndex].currentFrame = 0;
     moleStep[moleIndex] = 1;

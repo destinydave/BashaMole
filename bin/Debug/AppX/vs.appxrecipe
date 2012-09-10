@@ -74,7 +74,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\Game.js">
       <PackagePath>js\Game.js</PackagePath>
-      <Modified>2012-09-10T20:30:39.110</Modified>
+      <Modified>2012-09-10T20:36:42.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
