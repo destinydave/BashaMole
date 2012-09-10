@@ -1,0 +1,13 @@
+C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri
+C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml
+C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\BashaMole.build.appxrecipe
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\priconfig.xml.intermediate
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\layout.resfiles.intermediate
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\resources.resfiles.intermediate
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\pri.resfiles.intermediate
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\priconfig.xml
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\layout.resfiles
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\resources.resfiles
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\pri.resfiles
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\LanguageQualifiers.txt
+C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\ProjectArchitectures.txt
