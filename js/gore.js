@@ -29,30 +29,33 @@ function handleSparkles() {
 
     // loop through all of the active sparkles on stage:
     var l = stage.getNumChildren();
-    for (var i = l - 2; i > 0; i--) {
+    for (var i = l - 1; i > 0; i--) {
         var sparkle = stage.getChildAt(i);
+        
+        if (sparkle.name == "sparkle") {
 
-        // apply gravity and friction
-        sparkle.vY += 2;
-        sparkle.vX *= 0.98;
+            // apply gravity and friction
+            sparkle.vY += 2;
+            sparkle.vX *= 0.98;
 
-        // update position, scale, and alpha:
-        sparkle.x += sparkle.vX;
-        sparkle.y += sparkle.vY;
-        sparkle.alpha += sparkle.vA;
+            // update position, scale, and alpha:
+            sparkle.x += sparkle.vX;
+            sparkle.y += sparkle.vY;
+            sparkle.alpha += sparkle.vA;
 
 
-        // remove sparkles that are no longer visible or are stalled:
-        if (sparkle.alpha <= 0 || sparkle.y >= h && sparkle.vY < 10) {
-            stage.removeChildAt(i);
+            // remove sparkles that are no longer visible or are stalled:
+            if (sparkle.alpha <= 0 || sparkle.y >= h && sparkle.vY < 10) {
+                stage.removeChildAt(i);
+            }
+
+            //bounce sparkles off the bottom
+            if (sparkle.y > h) {
+                sparkle.vY *= -(Math.random() * 0.4 + 0.4);
+                sparkle.y -= sparkle.y % h;
+            }
+            if (sparkle.x >= w || sparkle.x <= 0) { sparkle.vX *= -1; }
         }
-
-        //bounce sparkles off the bottom
-        if (sparkle.y > h) {
-            sparkle.vY *= -(Math.random() * 0.4 + 0.4);
-            sparkle.y -= sparkle.y % h;
-        }
-        if (sparkle.x >= w || sparkle.x <= 0) { sparkle.vX *= -1; }
     }
 }
 
@@ -74,6 +77,7 @@ function addSparkles(count, x, y, speed, velX) {
         var sparkle = bmpAnim.clone();
 
         // set display properties:
+        sparkle.name = "sparkle";
         sparkle.x = x;
         sparkle.y = y;
         sparkle.alpha = Math.random() * 0.5 + 0.5;
