@@ -2,7 +2,7 @@
     // attach mouse handlers directly to the source canvas.
     // better than calling from canvas tag for cross browser compatibility:
     // stage.onMouseMove = moveCanvas;
-    stage.onMouseDown = clickCanvas;
+    //stage.onMouseDown = clickCanvas;
 
     // this prevents the stage from automatically clearing itself each tick.
     // in this demo, it results in the star trails, as the previous draws remain on screen.

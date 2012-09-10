@@ -67,16 +67,6 @@ function showNewMole() {
     }
 }
 
-function getMole(moleIndex) {
-
-    moleShape[moleIndex] = new createjs.Shape();
-    var g = moleShape[moleIndex].graphics;
-    g.beginFill("red");
-    g.drawCircle(molePosX[moleIndex], molePosY[moleIndex], 50);
-
-    stage.addChild(moleShape[moleIndex]);
-}
-
 function getMole2(moleIndex) {
     var data = {
         images: ["images/moledudesprite.png"],
@@ -89,6 +79,7 @@ function getMole2(moleIndex) {
     moleShape[moleIndex].x = molePosX[moleIndex] - 121; // Deduct half the width from the x position
     moleShape[moleIndex].y = molePosY[moleIndex];
     moleShape[moleIndex].currentFrame = 0;
+    moleShape[moleIndex].onClick = clickCanvas;
     moleStep[moleIndex] = 1;
 
     stage.addChild(moleShape[moleIndex]);
