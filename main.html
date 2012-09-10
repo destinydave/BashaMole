@@ -20,44 +20,97 @@
     <script>
         var canvas;
         var stage;
-        var time;
-        var shape;
-        var step;
+
+        //Initial mole position
+        var molePosX = new Array();
+        var molePosY = new Array();
+        var moleShowing = new Array();
+        var moleShowTime;
+        var numberOfMoles;
+        var maxMoleCols = 3;
+        var maxMoleRows = 1;
+        var moleShape = new Array();
+        var init 
 
         function init() {
             canvas = document.getElementById("canvas");
+            canvas.height = window.innerHeight;
+            canvas.width = window.innerWidth;
+
             stage = new createjs.Stage(canvas);
 
-            shape = new createjs.Shape();
-            var g = shape.graphics;
-            g.beginFill("red");
-            g.drawCircle(50, 50, 50);
-
-            stage.addChild(shape);
-            time = 60;
-            step = -1;
+            initialiseMolePosition();
 
             createjs.Ticker.addListener(window);
-        }
+        };
 
         function tick() {
 
-            time += step;
-            if (time == 0) {
-                stage.removeChild(shape);
-                step = 1;
+            moleShowTime--;
+            if (moleShowTime <= 0) {
+                showNewMole()
+                moleShowTime = Math.floor(Math.random() * 10 + 1);
             }
-            else if (time == 60) {
-                stage.addChild(shape);
-                step = -1;
+
+            for (idx = 0; idx < numberOfMoles; idx++) {
+                if (moleShowing[idx] > 0) {
+                    moleShowing[idx]--;
+                    if (moleShowing[idx] <= 0) {
+                        stage.removeChild(moleShape[idx]);
+                    }
+                }
             }
 
             stage.update();
         }
 
+        function showNewMole() {
+            var moleNum = Math.floor(Math.random() * numberOfMoles);
+            
+            if (moleShowing[moleNum] == 0) {
+                getMole(moleNum);
+                moleShowing[moleNum] = 5;
+            }
+        }
+
+        function getMole(moleIndex) {
+
+            moleShape[moleIndex] = new createjs.Shape();
+            var g = moleShape[moleIndex].graphics;
+            g.beginFill("red");
+            g.drawCircle(molePosX[moleIndex], molePosY[moleIndex], 50);
+
+            stage.addChild(moleShape[moleIndex]);
+        }
+
+        function initialiseMolePosition() {
+            var stepX = canvas.width / (maxMoleCols + 1);
+            var curX = stepX;
+            var stepY = canvas.height / (maxMoleRows + 1);
+            var curY = stepY;
+
+            var idx = 0;
+            for (y = 0; y < maxMoleRows; y++) {
+                for (x = 0; x < maxMoleCols; x++) {
+                    molePosX[idx] = curX;
+                    molePosY[idx] = curY;
+                    moleShowing[idx] = 0;
+
+                    curX += stepX;
+                    idx++;
+                }
+
+                curY += stepY;
+                curX = stepX;
+            }
+
+            numberOfMoles = idx ;
+            moleShowTime = Math.floor(Math.random() * 10 + 1);
+        }
+
     </script>
 </head>
-<body onload="init();">
+<body onload="init()">
     <img src="images/title.png" id="title" />
     <img src="images/background.png" id="background" />
 

@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\main.html">
       <PackagePath>main.html</PackagePath>
-      <Modified>2012-09-10T12:13:42.945</Modified>
+      <Modified>2012-09-10T13:45:58.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-10T11:13:36.768</Modified>
+      <Modified>2012-09-10T13:39:19.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\appbar.js">
       <PackagePath>js\appbar.js</PackagePath>
