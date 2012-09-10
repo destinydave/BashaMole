@@ -22,7 +22,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-10T07:00:56.396</Modified>
+      <Modified>2012-09-10T07:32:02.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-09-10T07:00:56.395</Modified>
+      <Modified>2012-09-10T07:35:09.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
