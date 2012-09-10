@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T10:11:12.941</Modified>
+      <Modified>2012-09-10T10:45:44.762</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\main.html">
       <PackagePath>main.html</PackagePath>
-      <Modified>2012-09-10T10:11:12.303</Modified>
+      <Modified>2012-09-10T10:52:49.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
@@ -60,13 +60,17 @@
       <PackagePath>js\default.js</PackagePath>
       <Modified>2012-09-10T09:14:21.004</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\appbar.js">
+      <PackagePath>js\appbar.js</PackagePath>
+      <Modified>2012-09-10T10:52:04.284</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2012-09-10T10:11:50.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T10:11:12.805</Modified>
+      <Modified>2012-09-10T10:45:44.629</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

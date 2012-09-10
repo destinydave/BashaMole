@@ -12,9 +12,20 @@
     <!-- BashaMole references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
+    <script src="/js/appbar.js"></script>
 </head>
 <body>
     <img src="images/title.png" id="title" />
     <img src="images/background.png" id="background" />
+
+    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <button 
+            data-win-control="WinJS.UI.AppBarCommand" 
+            data-win-options="{id:'cmdDelete',label:'End Game',icon:'delete',
+                section:'global',tooltip:'Delete item'}">
+        </button>
+     </div>
+
+    <div id="statusMessage"></div>
 </body>
 </html>

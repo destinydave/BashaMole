@@ -6,5 +6,6 @@ images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
 images\title.png
+js\appbar.js
 js\default.js
 main.html
