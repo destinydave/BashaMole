@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T12:13:43.295</Modified>
+      <Modified>2012-09-10T20:06:30.696</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\main.html">
       <PackagePath>main.html</PackagePath>
-      <Modified>2012-09-10T13:45:58.347</Modified>
+      <Modified>2012-09-10T20:06:30.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
@@ -68,13 +68,17 @@
       <PackagePath>js\easeljs-0.5.0.min.js</PackagePath>
       <Modified>2012-09-10T06:42:01.773</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\Game.js">
+      <PackagePath>js\Game.js</PackagePath>
+      <Modified>2012-09-10T20:06:30.175</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2012-09-10T11:13:36.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T12:13:43.246</Modified>
+      <Modified>2012-09-10T20:06:30.555</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

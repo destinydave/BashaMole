@@ -50,6 +50,9 @@
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\easeljs-0.5.0.min.js">
       <PackagePath>js\easeljs-0.5.0.min.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\Game.js">
+      <PackagePath>js\Game.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>

@@ -9,4 +9,5 @@ images\title.png
 js\appbar.js
 js\default.js
 js\easeljs-0.5.0.min.js
+js\Game.js
 main.html
