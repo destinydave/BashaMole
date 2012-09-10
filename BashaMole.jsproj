@@ -63,6 +63,7 @@
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\appbar.js" />
+    <Content Include="js\easeljs-0.5.0.min.js" />
     <Content Include="main.html" />
     <None Include="BashaMole_TemporaryKey.pfx" />
   </ItemGroup>

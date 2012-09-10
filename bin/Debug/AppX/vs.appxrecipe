@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WIN8</Machine>
-    <WindowsUser>James</WindowsUser>
+    <Machine>DAVELAPTOP</Machine>
+    <WindowsUser>DavidW</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <RegisteredManifestChecksum>751872D4C0F34104447077E6A690B98B11735064B4DE818140EEE6055600BED1</RegisteredManifestChecksum>
@@ -13,64 +13,68 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T10:45:44.762</Modified>
+      <Modified>2012-09-10T12:13:43.295</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-10T10:11:12.311</Modified>
+      <Modified>2012-09-10T11:13:36.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\main.html">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\main.html">
       <PackagePath>main.html</PackagePath>
-      <Modified>2012-09-10T10:52:49.087</Modified>
+      <Modified>2012-09-10T12:13:42.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
-      <Modified>2012-09-10T08:55:01.688</Modified>
+      <Modified>2012-09-10T11:13:36.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T07:00:56.398</Modified>
+      <Modified>2012-09-10T11:13:36.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T07:00:56.399</Modified>
+      <Modified>2012-09-10T11:13:36.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T07:22:17.971</Modified>
+      <Modified>2012-09-10T11:13:36.765</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T07:00:56.401</Modified>
+      <Modified>2012-09-10T11:13:36.766</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\title.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\title.png">
       <PackagePath>images\title.png</PackagePath>
-      <Modified>2012-09-10T08:55:01.689</Modified>
+      <Modified>2012-09-10T11:13:36.767</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\default.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-10T09:14:21.004</Modified>
+      <Modified>2012-09-10T11:13:36.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\appbar.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\appbar.js">
       <PackagePath>js\appbar.js</PackagePath>
-      <Modified>2012-09-10T10:52:04.284</Modified>
+      <Modified>2012-09-10T11:13:36.767</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\easeljs-0.5.0.min.js">
+      <PackagePath>js\easeljs-0.5.0.min.js</PackagePath>
+      <Modified>2012-09-10T06:42:01.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-09-10T10:11:50.579</Modified>
+      <Modified>2012-09-10T11:13:36.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T10:45:44.629</Modified>
+      <Modified>2012-09-10T12:13:43.246</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

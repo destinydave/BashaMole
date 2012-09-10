@@ -11,3 +11,16 @@ C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\resources.resfiles
 C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\pri.resfiles
 C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\LanguageQualifiers.txt
 C:\Users\James\Documents\GitHub\BashaMole\bld\Debug\ProjectArchitectures.txt
+C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\resources.pri
+C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml
+C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\BashaMole.build.appxrecipe
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\priconfig.xml
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\layout.resfiles
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\resources.resfiles
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\pri.resfiles
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\LanguageQualifiers.txt
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\ProjectArchitectures.txt
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\priconfig.xml.intermediate
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\layout.resfiles.intermediate
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\resources.resfiles.intermediate
+C:\Users\davidw\Documents\GitHub\BashaMole\bld\Debug\pri.resfiles.intermediate

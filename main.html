@@ -9,14 +9,59 @@
     <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
 
+    <!-- CreateJS references -->
+    <script src="js/easeljs-0.5.0.min.js"></script>
+
     <!-- BashaMole references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
     <script src="/js/appbar.js"></script>
+
+    <script>
+        var canvas;
+        var stage;
+        var time;
+        var shape;
+        var step;
+
+        function init() {
+            canvas = document.getElementById("canvas");
+            stage = new createjs.Stage(canvas);
+
+            shape = new createjs.Shape();
+            var g = shape.graphics;
+            g.beginFill("red");
+            g.drawCircle(50, 50, 50);
+
+            stage.addChild(shape);
+            time = 60;
+            step = -1;
+
+            createjs.Ticker.addListener(window);
+        }
+
+        function tick() {
+
+            time += step;
+            if (time == 0) {
+                stage.removeChild(shape);
+                step = 1;
+            }
+            else if (time == 60) {
+                stage.addChild(shape);
+                step = -1;
+            }
+
+            stage.update();
+        }
+
+    </script>
 </head>
-<body>
+<body onload="init();">
     <img src="images/title.png" id="title" />
     <img src="images/background.png" id="background" />
+
+    <div> <canvas id="canvas"></canvas></div>
 
     <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
         <button 
