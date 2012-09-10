@@ -80,3 +80,7 @@ div#main-menu ul li:hover {
 a {
     color: white;
 }
+
+a:hover {
+    color: white;
+}

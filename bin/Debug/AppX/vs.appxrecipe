@@ -82,11 +82,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\gore.js">
       <PackagePath>js\gore.js</PackagePath>
-      <Modified>2012-09-10T20:54:39.954</Modified>
+      <Modified>2012-09-10T21:00:42.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-09-10T20:58:26.133</Modified>
+      <Modified>2012-09-10T20:58:57.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

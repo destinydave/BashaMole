@@ -29,7 +29,7 @@ function handleSparkles() {
 
     // loop through all of the active sparkles on stage:
     var l = stage.getNumChildren();
-    for (var i = l - 1; i > 0; i--) {
+    for (var i = l - 2; i > 0; i--) {
         var sparkle = stage.getChildAt(i);
 
         // apply gravity and friction
