@@ -84,3 +84,7 @@ a {
 a:hover {
     color: white;
 }
+
+a:active {
+    color: black;
+}

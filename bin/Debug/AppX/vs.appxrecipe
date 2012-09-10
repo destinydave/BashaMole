@@ -22,7 +22,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-10T22:29:11.269</Modified>
+      <Modified>2012-09-10T22:48:07.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\main.html">
       <PackagePath>main.html</PackagePath>
@@ -35,7 +35,7 @@
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T22:07:21.055</Modified>
+      <Modified>2012-09-10T22:45:13.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\moledudesprite.png">
       <PackagePath>images\moledudesprite.png</PackagePath>
@@ -58,7 +58,7 @@
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T22:07:21.074</Modified>
+      <Modified>2012-09-10T22:45:25.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\title.png">
       <PackagePath>images\title.png</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-09-10T22:07:21.033</Modified>
+      <Modified>2012-09-10T22:48:52.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
