@@ -58,6 +58,7 @@
     <Content Include="images\logo.png" />
     <Content Include="images\moledudesprite.png" />
     <Content Include="images\smalllogo.png" />
+    <Content Include="images\sparkle_21x25.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
     <Content Include="images\title.png" />
@@ -66,6 +67,7 @@
     <Content Include="js\appbar.js" />
     <Content Include="js\easeljs-0.5.0.min.js" />
     <Content Include="js\Game.js" />
+    <Content Include="js\gore.js" />
     <Content Include="main.html" />
     <None Include="BashaMole_TemporaryKey.pfx" />
   </ItemGroup>

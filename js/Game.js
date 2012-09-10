@@ -12,6 +12,9 @@ var maxMoleCols = 3;
 var maxMoleRows = 1;
 var moleShape = new Array();
 var init
+var imgSeq = new Image();		// The image for the sparkle animation
+var bmpAnim;
+var oldX = 0;
 
 function init() {
     canvas = document.getElementById("canvas");
@@ -20,6 +23,9 @@ function init() {
 
     stage = new createjs.Stage(canvas);
 
+    imgSeq.onload = handleImageLoad();
+    imgSeq.src = "images/sparkle_21x25.png";
+
     initialiseMolePosition();
 
     createjs.Ticker.addListener(window);
@@ -27,6 +33,7 @@ function init() {
 
 function tick() {
 
+    handleSparkles();
     moleShowTime--;
     if (moleShowTime <= 0) {
         showNewMole()

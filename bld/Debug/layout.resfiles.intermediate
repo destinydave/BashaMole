@@ -4,6 +4,7 @@ images\background.png
 images\logo.png
 images\moledudesprite.png
 images\smalllogo.png
+images\sparkle_21x25.png
 images\splashscreen.png
 images\storelogo.png
 images\title.png
@@ -11,4 +12,5 @@ js\appbar.js
 js\default.js
 js\easeljs-0.5.0.min.js
 js\Game.js
+js\gore.js
 main.html
