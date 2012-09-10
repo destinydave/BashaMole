@@ -91,7 +91,7 @@ function getMole2(moleIndex) {
     moleShape[moleIndex].x = molePosX[moleIndex] - 121; // Deduct half the width from the x position
     moleShape[moleIndex].y = molePosY[moleIndex];
     moleShape[moleIndex].currentFrame = 0;
-    moleShape[moleIndex].onClick = clickCanvas;
+    moleShape[moleIndex].onClick = function (evt) { clickCanvas(evt); moleStep[moleIndex] = -1; moleShape[moleIndex].visible = false; }
     moleStep[moleIndex] = 1;
 
     stage.addChild(moleShape[moleIndex]);
