@@ -15,6 +15,8 @@ var init
 var imgSeq = new Image();		// The image for the sparkle animation
 var bmpAnim;
 var oldX = 0;
+var score = 0;
+var scoreText;
 
 function init() {
     canvas = document.getElementById("canvas");
@@ -22,6 +24,9 @@ function init() {
     canvas.width = window.innerWidth;
 
     stage = new createjs.Stage(canvas);
+
+    scoreText = new createjs.Text("Mole Kills: " + score, "36px Arial", "#777");
+    stage.addChild(scoreText);
 
     imgSeq.onload = handleImageLoad();
     imgSeq.src = "images/sparkle_21x25.png";
@@ -39,6 +44,7 @@ function tick() {
         showNewMole()
         moleShowTime = Math.floor(Math.random() * 10 + 1);
     }
+
 
     // 'Move' the moles
     for (idx = 0; idx < numberOfMoles; idx++) {

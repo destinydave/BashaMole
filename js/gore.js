@@ -62,6 +62,10 @@ function handleSparkles() {
 // sparkle explosion
 function clickCanvas(evt) {
     addSparkles(Math.random() * 100 + 100 | 0, evt.stageX, evt.stageY, 2, 0);
+    score++;
+    stage.removeChild(scoreText);
+    scoreText = new createjs.Text("Mole Kills: " + score, "36px Arial", "#777");
+    stage.addChild(scoreText);
 }
 
 //sparkle trail

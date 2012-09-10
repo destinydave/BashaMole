@@ -1,71 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>WIN8</Machine>
-    <WindowsUser>James</WindowsUser>
+    <Machine>DAVELAPTOP</Machine>
+    <WindowsUser>DavidW</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\main.html">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\main.html">
       <PackagePath>main.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\moledudesprite.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\moledudesprite.png">
       <PackagePath>images\moledudesprite.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\sparkle_21x25.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\sparkle_21x25.png">
       <PackagePath>images\sparkle_21x25.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\title.png">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\title.png">
       <PackagePath>images\title.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\default.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\appbar.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\appbar.js">
       <PackagePath>js\appbar.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\easeljs-0.5.0.min.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\easeljs-0.5.0.min.js">
       <PackagePath>js\easeljs-0.5.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\Game.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\Game.js">
       <PackagePath>js\Game.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\gore.js">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\js\gore.js">
       <PackagePath>js\gore.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
