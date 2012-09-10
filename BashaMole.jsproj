@@ -62,6 +62,7 @@
     <Content Include="images\title.png" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="main.html" />
     <None Include="BashaMole_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

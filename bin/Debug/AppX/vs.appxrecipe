@@ -16,17 +16,21 @@
     <AppXManifest Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-10T08:04:02.530</Modified>
+      <Modified>2012-09-10T10:11:12.941</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-10T08:23:50.287</Modified>
+      <Modified>2012-09-10T10:11:12.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\main.html">
+      <PackagePath>main.html</PackagePath>
+      <Modified>2012-09-10T10:11:12.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
-      <Modified>2012-09-10T07:48:08.800</Modified>
+      <Modified>2012-09-10T08:55:01.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -50,19 +54,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\title.png">
       <PackagePath>images\title.png</PackagePath>
-      <Modified>2012-09-10T08:02:06.423</Modified>
+      <Modified>2012-09-10T08:55:01.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-10T07:00:56.403</Modified>
+      <Modified>2012-09-10T09:14:21.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-09-10T08:51:57.264</Modified>
+      <Modified>2012-09-10T10:11:50.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-09-10T08:04:02.385</Modified>
+      <Modified>2012-09-10T10:11:12.805</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

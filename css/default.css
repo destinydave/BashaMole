@@ -72,3 +72,11 @@ div#main-menu ul li {
     border: 1px solid white;
     border-collapse: collapse;
 }
+
+div#main-menu ul li:hover {
+    background-color: #808080;
+}
+
+a {
+    color: white;
+}

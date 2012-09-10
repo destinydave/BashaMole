@@ -16,6 +16,9 @@
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\main.html">
+      <PackagePath>main.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\James\Documents\GitHub\BashaMole\images\background.png">
       <PackagePath>images\background.png</PackagePath>
     </AppxPackagedFile>
