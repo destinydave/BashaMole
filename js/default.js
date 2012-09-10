@@ -33,7 +33,7 @@
     app.start();
 })();
 
-function ExitRoutine() {
-    var md = new Windows.UI.Popups.MessageDialog("I'm Sorry Dave. I can't let you do that.");
+function PopupMessage(message) {
+    var md = new Windows.UI.Popups.MessageDialog(message);
     md.showAsync().then(function (command) { console.log("pressed: " + command.label); });
 }

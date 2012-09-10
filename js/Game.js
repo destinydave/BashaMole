@@ -17,6 +17,7 @@ var bmpAnim;
 var oldX = 0;
 var score = 0;
 var scoreText;
+var moleCount = 0;
 
 function init() {
     canvas = document.getElementById("canvas");
@@ -67,9 +68,16 @@ function tick() {
 function showNewMole() {
     var moleNum = Math.floor(Math.random() * numberOfMoles);
 
-    if (moleShowing[moleNum] == 0) {
-        getMole2(moleNum);
-        moleShowing[moleNum] = 1;
+    if (moleCount < 3) {
+        if (moleShowing[moleNum] == 0) {
+            getMole2(moleNum);
+            moleShowing[moleNum] = 1;
+            moleCount++;
+        }
+    } else {
+        createjs.Ticker.removeAllListeners();
+        var message = "You murdered " + score + " moles!";
+        PopupMessage(message);
     }
 }
 
@@ -116,3 +124,6 @@ function initialiseMolePosition() {
     moleShowTime = Math.floor(Math.random() * 10 + 1);
 }
 
+function endGame() {
+
+}
