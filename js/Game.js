@@ -52,7 +52,7 @@ function tick() {
         if (moleShowing[idx] > 0) {
             moleShape[idx].currentFrame += moleStep[idx]
             
-            if (moleShape[idx].currentFrame == 7)
+            if (moleShape[idx].currentFrame == 9)
                 moleStep[idx] = -1;
 
             if (moleShape[idx].currentFrame == 0)            {
@@ -83,7 +83,7 @@ function getMole2(moleIndex) {
     var data = {
         images: ["images/moledudesprite.png"],
         frames: { width: 300, height: 242 },
-        animations: { run: [0, 7] }
+        animations: { run: [0, 9] }
     }
 
     var spriteSheet = new createjs.SpriteSheet(data);
