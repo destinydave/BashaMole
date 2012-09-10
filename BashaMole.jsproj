@@ -56,6 +56,7 @@
     <Content Include="default.html" />
     <Content Include="images\background.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\moledudesprite.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />

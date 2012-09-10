@@ -5,6 +5,7 @@ var stage;
 var molePosX = new Array();
 var molePosY = new Array();
 var moleShowing = new Array();
+var moleStep = new Array();
 var moleShowTime;
 var numberOfMoles;
 var maxMoleCols = 3;
@@ -32,11 +33,17 @@ function tick() {
         moleShowTime = Math.floor(Math.random() * 10 + 1);
     }
 
+    // 'Move' the moles
     for (idx = 0; idx < numberOfMoles; idx++) {
         if (moleShowing[idx] > 0) {
-            moleShowing[idx]--;
-            if (moleShowing[idx] <= 0) {
+            moleShape[idx].currentFrame += moleStep[idx]
+            
+            if (moleShape[idx].currentFrame == 7)
+                moleStep[idx] = -1;
+
+            if (moleShape[idx].currentFrame == 0)            {
                 stage.removeChild(moleShape[idx]);
+                moleShowing[idx] = 0;
             }
         }
     }
@@ -48,8 +55,8 @@ function showNewMole() {
     var moleNum = Math.floor(Math.random() * numberOfMoles);
 
     if (moleShowing[moleNum] == 0) {
-        getMole(moleNum);
-        moleShowing[moleNum] = 5;
+        getMole2(moleNum);
+        moleShowing[moleNum] = 1;
     }
 }
 
@@ -59,6 +66,23 @@ function getMole(moleIndex) {
     var g = moleShape[moleIndex].graphics;
     g.beginFill("red");
     g.drawCircle(molePosX[moleIndex], molePosY[moleIndex], 50);
+
+    stage.addChild(moleShape[moleIndex]);
+}
+
+function getMole2(moleIndex) {
+    var data = {
+        images: ["images/moledudesprite.png"],
+        frames: { width: 300, height: 242 },
+        animations: { run: [0, 7] }
+    }
+
+    var spriteSheet = new createjs.SpriteSheet(data);
+    moleShape[moleIndex] = new createjs.BitmapAnimation(spriteSheet);
+    moleShape[moleIndex].x = molePosX[moleIndex];
+    moleShape[moleIndex].y = molePosY[moleIndex];
+    moleShape[moleIndex].currentFrame = 0;
+    moleStep[moleIndex] = 1;
 
     stage.addChild(moleShape[moleIndex]);
 }

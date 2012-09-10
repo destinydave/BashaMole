@@ -26,6 +26,9 @@
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\moledudesprite.png">
+      <PackagePath>images\moledudesprite.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davidw\Documents\GitHub\BashaMole\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
